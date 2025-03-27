@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Bello",
+    "art": "Hund",
+    "alter": 3
+  },
+  {
+    "id": 2,
+    "name": "Mieze",
+    "art": "Katze",
+    "alter": 5
+  },
+  {
+    "id": 3,
+    "name": "Mino",
+    "art": "Katze",
+    "alter": 7
+  },
+  {
+    "id": 4,
+    "name": "Wauwau",
+    "art": "Hund",
+    "alter": 8
+  }
+]

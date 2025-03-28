@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": [
+      "Action",
+      "Crime"
+    ],
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "id": 5,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 6,
+    "title": "Fight Club",
+    "year": 1999,
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "David Fincher"
+  },
+  {
+    "id": 7,
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 8,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 9,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genre": [
+      "Drama"
+    ],
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 10,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "director": "Peter Jackson"
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "director": "Peter Jackson"
+  },
+  {
+    "id": 12,
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "director": "Peter Jackson"
+  },
+  {
+    "id": 13,
+    "title": "The Avengers",
+    "year": 2012,
+    "genre": [
+      "Action",
+      "Superhero"
+    ],
+    "director": "Joss Whedon"
+  },
+  {
+    "id": 14,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genre": [
+      "Action",
+      "Superhero"
+    ],
+    "director": "Anthony Russo, Joe Russo"
+  },
+  {
+    "id": 15,
+    "title": "Gladiator",
+    "year": 2000,
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 16,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "director": "Jonathan Demme"
+  },
+  {
+    "id": 17,
+    "title": "The Green Mile",
+    "year": 1999,
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 18,
+    "title": "Schindler's List",
+    "year": 1993,
+    "genre": [
+      "Drama",
+      "History"
+    ],
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 19,
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "genre": [
+      "War",
+      "Drama"
+    ],
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 20,
+    "title": "Django Unchained",
+    "year": 2012,
+    "genre": [
+      "Western",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 21,
+    "title": "Goodfellas",
+    "year": 1990,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 22,
+    "title": "Se7en",
+    "year": 1995,
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "David Fincher"
+  },
+  {
+    "id": 23,
+    "title": "The Departed",
+    "year": 2006,
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 24,
+    "title": "The Prestige",
+    "year": 2006,
+    "genre": [
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 25,
+    "title": "Whiplash",
+    "year": 2014,
+    "genre": [
+      "Drama",
+      "Music"
+    ],
+    "director": "Damien Chazelle"
+  },
+  {
+    "id": 26,
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "genre": [
+      "Biography",
+      "Comedy"
+    ],
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 27,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "director": "Bong Joon Ho"
+  },
+  {
+    "id": 28,
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Joel Coen, Ethan Coen"
+  },
+  {
+    "id": 29,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 30,
+    "title": "The Revenant",
+    "year": 2015,
+    "genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Alejandro G. Iñárritu"
+  },
+  {
+    "id": 31,
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "genre": [
+      "War",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 32,
+    "title": "Once Upon a Time in Hollywood",
+    "year": 2019,
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 33,
+    "title": "The Martian",
+    "year": 2015,
+    "genre": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 34,
+    "title": "The Social Network",
+    "year": 2010,
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "David Fincher"
+  },
+  {
+    "id": 35,
+    "title": "The Truman Show",
+    "year": 1998,
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "director": "Peter Weir"
+  },
+  {
+    "id": 36,
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Joel & Ethan Coen"
+  },
+  {
+    "id": 37,
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "genre": [
+      "Drama"
+    ],
+    "director": "Gus Van Sant"
+  },
+  {
+    "id": 38,
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "M. Night Shyamalan"
+  },
+  {
+    "id": 39,
+    "title": "Black Swan",
+    "year": 2010,
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 40,
+    "title": "Requiem for a Dream",
+    "year": 2000,
+    "genre": [
+      "Drama",
+      "Psychological"
+    ],
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 41,
+    "title": "Reservoir Dogs",
+    "year": 1992,
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 42,
+    "title": "Schindler’s List",
+    "year": 1993,
+    "genre": [
+      "Biography",
+      "History"
+    ],
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 43,
+    "title": "American Beauty",
+    "year": 1999,
+    "genre": [
+      "Drama"
+    ],
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 44,
+    "title": "Bohemian Rhapsody",
+    "year": 2018,
+    "genre": [
+      "Biography",
+      "Music"
+    ],
+    "director": "Bryan Singer"
+  },
+  {
+    "id": 45,
+    "title": "Les Misérables",
+    "year": 2012,
+    "genre": [
+      "Drama",
+      "Musical"
+    ],
+    "director": "Tom Hooper"
+  },
+  {
+    "id": 46,
+    "title": "Moonlight",
+    "year": 2016,
+    "genre": [
+      "Drama"
+    ],
+    "director": "Barry Jenkins"
+  },
+  {
+    "id": 47,
+    "title": "Gone Girl",
+    "year": 2014,
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "David Fincher"
+  },
+  {
+    "id": 48,
+    "title": "The Shape of Water",
+    "year": 2017,
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "director": "Guillermo del Toro"
+  },
+  {
+    "id": 49,
+    "title": "Birdman",
+    "year": 2014,
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "director": "Alejandro G. Iñárritu"
+  }
+]

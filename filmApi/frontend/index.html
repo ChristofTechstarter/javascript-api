@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Filme anzeigen</h1>
+    <button onclick="loadFilms()">Filme anzeigen</button>
+    <div id="showFilms"></div>
+
+    <h1>Filme Filtern</h1>
+    <p>Nur die Felder ausfüllen, nach denen du Filtern möchtest!</p>
+    <form id="filterFilms">
+        <input type="text" id="titelFilter" placeholder="Titel">
+        <input type="number" id="yearFilter" placeholder="Jahr">
+        <input type="text" id="genreFilter" placeholder="Genre">
+        <input type="text" id="directorFilter" placeholder="Regisseur">
+        <button type="submit">Suchen</button>
+    </form>
+    <div id="filteredFilms"></div>
+
+    <h1>Neuen Film anlegen</h1>
+    <form id="createFilm">
+        <input type="text" id="titel" placeholder="Titel">
+        <input type="number" id="year" placeholder="Jahr">
+        <input type="text" id="genre" placeholder="Genre">
+        <input type="text" id="director" placeholder="Regisseur">
+        <button type="submit">Anlegen</button>
+    </form>
+    <p id="antwortCreated"></p>
+
+    <h1>Film ändern</h1>
+    <form id="changeFilm">
+        <input type="number" id="idChange" placeholder="Film-ID">
+        <input type="text" id="titelChange" placeholder="Titel">
+        <input type="number" id="yearChange" placeholder="Jahr">
+        <input type="text" id="genreChange" placeholder="Genre">
+        <input type="text" id="directorChange" placeholder="Regisseur">
+        <button type="submit">Ändern</button>
+    </form>
+    <div id="changedFilm"></div>
+
+    <h1>Filme Löschen</h1>
+    <form id="delteFilms">
+        <input type="number" id="idDelete" placeholder="Film-ID">
+        <button type="submit">Löschen</button>
+    </form>
+    <div id="deletedFilms"></div>
+</body>
+</html>

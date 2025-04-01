@@ -54,6 +54,30 @@ function convertDatatoTable(data) {
   return table;
 }
 
+function convertDatatoSingleTable(data) {
+  let table = `<table border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Genre</th>
+        <th>Director</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>${data.id}</td>
+    <td>${data.title}</td>
+    <td>${data.year}</td>
+    <td>${data.genre.join(", ")}</td>
+    <td>${data.director}</td>
+  </tr>
+  </tbody></table>`;
+
+  return table;
+}
+
 function loadFilms() {
   fetch("http://localhost:5005/films")
     .then((res) => res.json())
@@ -129,7 +153,9 @@ createFilmForm.addEventListener("submit", (event) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      antwortFeldCreated.textContent = JSON.stringify(data);
+      antwortFeldCreated.innerHTML =
+        `<p>Film erfolgreich hinzugefügt!<br>Hinzugefügter Film:</p>` +
+        convertDatatoSingleTable(data.newFilm);
     })
     .catch((error) => {
       console.error("Fehler:", error);
@@ -207,6 +233,8 @@ delteFilmsForm.addEventListener("submit", (event) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      deletedFilmContainer.innerHTML = `<p>Film erfolgreich gelöscht!<br>Gelöschter Film: ${data.deletedFilm.title}</p>`;
+      deletedFilmContainer.innerHTML =
+        `<p>Film erfolgreich gelöscht!<br>Gelöschter Film:</p>` +
+        convertDatatoSingleTable(data.deletedFilm);
     });
 });

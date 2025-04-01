@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
-const cors = require("cors");
+const path = require("path");
 app.use(express.json());
-app.use(cors({ origin: "http://127.0.0.1:5500" }));
+app.use(express.static(path.join(__dirname, "frontend")));
 
 function readFile() {
   const data = fs.readFileSync("films.json", "utf-8");

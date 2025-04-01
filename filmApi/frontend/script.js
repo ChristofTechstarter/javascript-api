@@ -207,8 +207,6 @@ delteFilmsForm.addEventListener("submit", (event) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      deletedFilmContainer.innerHTML =
-        "<p>Film erfolgreich gelöscht!<br>Gelöschter Film:</p><br>" +
-        convertDatatoTable(data);
+      deletedFilmContainer.innerHTML = `<p>Film erfolgreich gelöscht!<br>Gelöschter Film: ${data.deletedFilm.title}</p>`;
     });
 });
